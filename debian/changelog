@@ -1,5 +1,9 @@
-krunner (4.96.0-0ubuntu1) UNRELEASED; urgency=medium
+krunner (4.97.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Rohan Garg ]
   * dummy
 
- -- Rohan Garg <rohangarg@kubuntu.org>  Tue, 11 Feb 2014 18:38:22 +0100
+  [ Jonathan Riddell ]
+  * New upstream alpha release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2014 12:24:54 +0000
