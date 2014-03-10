@@ -1,0 +1,3 @@
+usr/share/*
+usr/lib/*/libKF5Runner.so.4*
+usr/lib/*/qml/* 

@@ -10,34 +10,38 @@ Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  libkf5auth-dev (>= 4.97.0), libkf5coreaddons-dev (>= 4.97.0),
  libkf5codecs-dev (>= 4.97.0), libkf5guiaddons-dev (>= 4.97.0),
  libkf5itemviews-dev (>= 4.97.0), libkf5dbusaddons-dev (>= 4.97.0),
- libkf5windowsystem-dev (>= 4.97.0)
+ libkf5windowsystem-dev (>= 4.97.0), qtdeclarative5-dev, plasma-framework-dev (>= 4.97.0)
 Standards-Version: 3.9.5
-Homepage: https://projects.kde.org/projects/frameworks/ktextwidgets
+Homepage: https://projects.kde.org/projects/frameworks/krunner
 
-Package: libkf5textwidgets-dev
+Package: libkf5runner-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5textwidgets5 (= ${binary:Version}), ${misc:Depends}
-Description: development files for ktextwidgets
+Depends: libkf5runner4 (= ${binary:Version}), ${misc:Depends}
+Description: development files for krunner
  An assortment of text-related widgets.
  .
- Contains development files for ktextwidgets.
+ Contains development files for krunner.
  
-Package: libkf5textwidgets5
+Package: libkf5runner4
 Architecture: any
 Multi-Arch: allowed
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Advanced text editing widgets.
- An assortment of text-related widgets
+Description: Used to write plugins loaded at runtime called "Runners".
+ Launcher built into the Plasma desktop. While its
+ basic function is to launch programs from a sort
+ of mini-command-line, its functionality can be
+ extended by "runners" to assist the user
+ to accomplish a lot of tasks.
 
-Package: libkf5textwidgets5-dbg
+Package: libkf5runner4-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: allowed
-Depends: libkf5textwidgets5 (= ${binary:Version}), ${misc:Depends}
-Description: debug symbols for ktextwidgets
+Depends: libkf5runner4 (= ${binary:Version}), ${misc:Depends}
+Description: debug symbols for krunner
  An assortment of text-related widgets
  .
- Contains debug symbols for ktextwidgets.
+ Contains debug symbols for krunner.
