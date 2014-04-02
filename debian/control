@@ -13,7 +13,7 @@ Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  libkf5windowsystem-dev (>= 4.98.0), qtdeclarative5-dev, plasma-framework-dev (>= 4.98.0),
  kf5-kio-dev (>= 4.98.0), libkf5bookmarks-dev (>= 4.98.0),
  libkf5xmlgui-dev (>= 4.98.0), libkf5globalaccel-dev (>= 4.98.0),
- libkf5textwidgets-dev (>= 4.98.0)
+ libkf5textwidgets-dev (>= 4.98.0), libkf5attica-dev (>= 4.98.0)
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/krunner
 
