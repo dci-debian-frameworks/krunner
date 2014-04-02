@@ -1,8 +1,13 @@
-krunner (4.98.0-0ubuntu1) UNRELEASED; urgency=medium
+krunner (4.98.0-0ubuntu1~ubuntu14.04~ppa9) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream beta release
   * Add new build-deps
   * Rename package to libkf5runner5
+
+  [ Scarlett Clark ]
+  * Add missing depends.
+  * Add krunner-data package 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 29 Mar 2014 10:59:45 +0000
 

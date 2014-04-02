@@ -1,4 +1,4 @@
-usr/share/*
+usr/share/qt5/*
 usr/lib/*/libKF5Runner.so.4*
 usr/lib/*/libKF5Runner.so.5
 usr/lib/*/qml/* 
