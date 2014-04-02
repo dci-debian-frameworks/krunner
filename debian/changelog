@@ -1,7 +1,7 @@
 krunner (4.98.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream beta release
-  * Add build-dep on kf5-kio-dev
+  * Add new build-deps
   * Rename package to libkf5runner5
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 29 Mar 2014 10:59:45 +0000
