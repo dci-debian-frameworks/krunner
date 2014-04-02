@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 4.97.0 amd64
-libKF5Runner.so.4 libkf5runner4 #MINVER#
+libKF5Runner.so.5 libkf5runner5 #MINVER#
  _ZN6Plasma10QueryMatch10setEnabledEb@Base 4.97.0
  _ZN6Plasma10QueryMatch10setSubtextERK7QString@Base 4.97.0
  _ZN6Plasma10QueryMatch11setMimeTypeERK7QString@Base 4.97.0
@@ -189,6 +189,6 @@ libKF5Runner.so.4 libkf5runner4 #MINVER#
  _ZTVN6Plasma13RunnerContextE@Base 4.97.0
  _ZTVN6Plasma13RunnerManagerE@Base 4.97.0
  _ZTVN6Plasma14AbstractRunnerE@Base 4.97.0
-librunnermodelplugin.so libkf5runner4 #MINVER#
+librunnermodelplugin.so libkf5runner5 #MINVER#
  qt_plugin_instance@Base 4.97.0
  qt_plugin_query_metadata@Base 4.97.0
