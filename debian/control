@@ -18,13 +18,13 @@ Homepage: https://projects.kde.org/projects/frameworks/krunner
 Package: libkf5runner-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5runner4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5runner5 (= ${binary:Version}), ${misc:Depends}
 Description: development files for krunner
  An assortment of text-related widgets.
  .
  Contains development files for krunner.
  
-Package: libkf5runner4
+Package: libkf5runner5
 Architecture: any
 Multi-Arch: allowed
 Pre-Depends: ${misc:Pre-Depends}
@@ -36,12 +36,12 @@ Description: Used to write plugins loaded at runtime called "Runners".
  extended by "runners" to assist the user
  to accomplish a lot of tasks.
 
-Package: libkf5runner4-dbg
+Package: libkf5runner5-dbg
 Priority: extra
 Section: debug
 Architecture: any
 Multi-Arch: allowed
-Depends: libkf5runner4 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5runner5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for krunner
  An assortment of text-related widgets
  .
