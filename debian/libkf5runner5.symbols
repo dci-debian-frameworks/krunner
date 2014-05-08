@@ -1,9 +1,10 @@
-# SymbolsHelper-Confirmed: 4.97.0 amd64
+# SymbolsHelper-Confirmed: 4.99.0 amd64
 libKF5Runner.so.5 libkf5runner5 #MINVER#
  _ZN6Plasma10QueryMatch10setEnabledEb@Base 4.97.0
  _ZN6Plasma10QueryMatch10setSubtextERK7QString@Base 4.97.0
  _ZN6Plasma10QueryMatch11setMimeTypeERK7QString@Base 4.97.0
  _ZN6Plasma10QueryMatch12setRelevanceEd@Base 4.97.0
+ _ZN6Plasma10QueryMatch16setMatchCategoryERK7QString@Base 4.99.0
  _ZN6Plasma10QueryMatch17setSelectedActionEP7QAction@Base 4.97.0
  _ZN6Plasma10QueryMatch28createConfigurationInterfaceEP7QWidget@Base 4.97.0
  _ZN6Plasma10QueryMatch5setIdERK7QString@Base 4.97.0
@@ -115,6 +116,7 @@ libKF5Runner.so.5 libkf5runner5 #MINVER#
  _ZN6Plasma14AbstractRunnerD0Ev@Base 4.97.0
  _ZN6Plasma14AbstractRunnerD1Ev@Base 4.97.0
  _ZN6Plasma14AbstractRunnerD2Ev@Base 4.97.0
+ _ZNK6Plasma10QueryMatch13matchCategoryEv@Base 4.99.0
  _ZNK6Plasma10QueryMatch14selectedActionEv@Base 4.97.0
  _ZNK6Plasma10QueryMatch25hasConfigurationInterfaceEv@Base 4.97.0
  _ZNK6Plasma10QueryMatch2idEv@Base 4.97.0
