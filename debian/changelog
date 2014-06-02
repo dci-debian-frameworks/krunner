@@ -9,6 +9,7 @@ krunner (4.99.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ José Manuel Santamaría Lema ]
   * Update paths in libkf5runner5.install
+  * Install *.pri files in arch dependent path.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 May 2014 15:39:50 +0100
 
