@@ -21,7 +21,8 @@ Homepage: https://projects.kde.org/projects/frameworks/krunner
 Package: libkf5runner-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5runner5 (= ${binary:Version}), ${misc:Depends}
+Depends: libkf5runner5 (= ${binary:Version}), ${misc:Depends},
+ qtbase5-dev
 Description: development files for krunner
  An assortment of text-related widgets.
  .
