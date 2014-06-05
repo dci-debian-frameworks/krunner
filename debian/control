@@ -61,12 +61,10 @@ Description: Used to write plugins loaded at runtime called "Runners".
  extended by "runners" to assist the user
  to accomplish a lot of tasks.
 Multi-Arch: allowed
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: krunner-data
 Architecture: any
 Multi-Arch: allowed
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: krunna data files
  Launcher built into the Plasma desktop. While its
