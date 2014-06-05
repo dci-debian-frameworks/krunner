@@ -61,10 +61,12 @@ Description: Used to write plugins loaded at runtime called "Runners".
  to accomplish a lot of tasks.
 Multi-Arch: allowed
 
-Package: krunner-data
+Package: libkf5runner-data
 Architecture: any
 Multi-Arch: allowed
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5runner-data
+Replaces: libkf5runner-data
 Description: krunna data files
  Launcher built into the Plasma desktop. While its
  basic function is to launch programs from a sort
@@ -73,10 +75,10 @@ Description: krunna data files
  to accomplish a lot of tasks.
 
 Package: libkf5runner5-dbg
-Priority: extra
-Section: debug
 Architecture: any
 Multi-Arch: allowed
+Priority: extra
+Section: debug
 Depends: libkf5runner5 (= ${binary:Version}), ${misc:Depends}
 Description: debug symbols for krunner
  An assortment of text-related widgets
