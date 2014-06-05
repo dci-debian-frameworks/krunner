@@ -51,7 +51,6 @@ Description: development files for krunner
  Contains development files for krunner.
 
 Package: libkf5runner5
-Section: libdevel
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Used to write plugins loaded at runtime called "Runners".
