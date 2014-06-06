@@ -1,10 +1,9 @@
-krunner (4.100.0-0ubuntu1~ubuntu14.10~ppa2) utopic; urgency=medium
+krunner (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * New upstream beta release
 
   [ Scarlett Clark ]
-  * Bump depends versions
   * Bump depends versions
 
   [ Harald Sitter ]
