@@ -65,8 +65,8 @@ Package: libkf5runner-data
 Architecture: any
 Multi-Arch: allowed
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5runner-data
-Replaces: libkf5runner-data
+Breaks: libkf5runner5-data
+Replaces: libkf5runner5-data
 Description: krunna data files
  Launcher built into the Plasma desktop. While its
  basic function is to launch programs from a sort
