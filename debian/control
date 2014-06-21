@@ -49,9 +49,24 @@ Description: development files for krunner
   .
  Contains development files for krunner.
 
+Package: libkf5runner-bin
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5runner5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa3)
+Replaces: libkf5runner5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa3)
+Description: Used to write plugins loaded at runtime called "Runners".
+ Launcher built into the Plasma desktop. While its
+ basic function is to launch programs from a sort
+ of mini-command-line, its functionality can be
+ extended by "runners" to assist the user
+ to accomplish a lot of tasks.
+ .
+ This package contains the runtime files.
+
 Package: libkf5runner5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: libkf5runner-bin (= ${binary:Version})
 Description: Used to write plugins loaded at runtime called "Runners".
  Launcher built into the Plasma desktop. While its
  basic function is to launch programs from a sort
@@ -79,6 +94,7 @@ Multi-Arch: allowed
 Priority: extra
 Section: debug
 Depends: libkf5runner5 (= ${binary:Version}), ${misc:Depends}
+Recommends: libkf5runner-bin (= ${binary:Version})
 Description: debug symbols for krunner
  An assortment of text-related widgets
  .
