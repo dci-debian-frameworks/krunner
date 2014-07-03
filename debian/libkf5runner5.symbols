@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.99.0 amd64
+# SymbolsHelper-Confirmed: 5.0.0 amd64
 libKF5Runner.so.5 libkf5runner5 #MINVER#
  _ZN6Plasma10QueryMatch10setEnabledEb@Base 4.97.0
  _ZN6Plasma10QueryMatch10setSubtextERK7QString@Base 4.97.0
@@ -38,6 +38,7 @@ libKF5Runner.so.5 libkf5runner5 #MINVER#
  _ZN6Plasma13RunnerContext13removeMatchesEPNS_14AbstractRunnerE@Base 4.97.0
  _ZN6Plasma13RunnerContext14matchesChangedEv@Base 4.97.0
  _ZN6Plasma13RunnerContext16staticMetaObjectE@Base 4.97.0
+ _ZN6Plasma13RunnerContext20setEnabledCategoriesERK11QStringList@Base 5.0.0
  _ZN6Plasma13RunnerContext24setSingleRunnerQueryModeEb@Base 4.97.0
  _ZN6Plasma13RunnerContext3runERKNS_10QueryMatchE@Base 4.97.0
  _ZN6Plasma13RunnerContext4saveER12KConfigGroup@Base 4.97.0
@@ -69,6 +70,7 @@ libKF5Runner.so.5 libkf5runner5 #MINVER#
  _ZN6Plasma13RunnerManager17setupMatchSessionEv@Base 4.97.0
  _ZN6Plasma13RunnerManager19reloadConfigurationEv@Base 4.97.0
  _ZN6Plasma13RunnerManager20matchSessionCompleteEv@Base 4.97.0
+ _ZN6Plasma13RunnerManager20setEnabledCategoriesERK11QStringList@Base 5.0.0
  _ZN6Plasma13RunnerManager21setSingleModeRunnerIdERK7QString@Base 4.97.0
  _ZN6Plasma13RunnerManager3runERK7QString@Base 4.97.0
  _ZN6Plasma13RunnerManager3runERKNS_10QueryMatchE@Base 4.97.0
@@ -140,6 +142,7 @@ libKF5Runner.so.5 libkf5runner5 #MINVER#
  _ZNK6Plasma12RunnerSyntax21searchTermDescriptionEv@Base 4.97.0
  _ZNK6Plasma12RunnerSyntax33exampleQueriesWithTermDescriptionEv@Base 4.97.0
  _ZNK6Plasma13RunnerContext10metaObjectEv@Base 4.97.0
+ _ZNK6Plasma13RunnerContext17enabledCategoriesEv@Base 5.0.0
  _ZNK6Plasma13RunnerContext21singleRunnerQueryModeEv@Base 4.97.0
  _ZNK6Plasma13RunnerContext4typeEv@Base 4.97.0
  _ZNK6Plasma13RunnerContext5matchERK7QString@Base 4.97.0
@@ -155,15 +158,18 @@ libKF5Runner.so.5 libkf5runner5 #MINVER#
  _ZNK6Plasma13RunnerManager16mimeDataForMatchERK7QString@Base 4.97.0
  _ZNK6Plasma13RunnerManager16mimeDataForMatchERKNS_10QueryMatchE@Base 4.97.0
  _ZNK6Plasma13RunnerManager16singleModeRunnerEv@Base 4.97.0
+ _ZNK6Plasma13RunnerManager17enabledCategoriesEv@Base 5.0.0
  _ZNK6Plasma13RunnerManager18singleModeRunnerIdEv@Base 4.97.0
  _ZNK6Plasma13RunnerManager29singleModeAdvertisedRunnerIdsEv@Base 4.97.0
  _ZNK6Plasma13RunnerManager5queryEv@Base 4.97.0
  _ZNK6Plasma13RunnerManager6runnerERK7QString@Base 4.97.0
  _ZNK6Plasma13RunnerManager7matchesEv@Base 4.97.0
  _ZNK6Plasma13RunnerManager7runnersEv@Base 4.97.0
+ _ZNK6Plasma14AbstractRunner10categoriesEv@Base 5.0.0
  _ZNK6Plasma14AbstractRunner10dataEngineERK7QString@Base 4.97.0
  _ZNK6Plasma14AbstractRunner10metaObjectEv@Base 4.97.0
  _ZNK6Plasma14AbstractRunner11descriptionEv@Base 4.97.0
+ _ZNK6Plasma14AbstractRunner12categoryIconERK7QString@Base 5.0.0
  _ZNK6Plasma14AbstractRunner12ignoredTypesEv@Base 4.97.0
  _ZNK6Plasma14AbstractRunner13defaultSyntaxEv@Base 4.97.0
  _ZNK6Plasma14AbstractRunner19isMatchingSuspendedEv@Base 4.97.0
