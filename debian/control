@@ -32,13 +32,15 @@ Build-Depends: cmake,
                libkf5windowsystem-dev (>= 5.0.0),
                libkf5xmlgui-dev (>= 5.0.0),
                pkg-kde-tools,
-               plasma-framework-dev (>= 4.100.0),
+               plasma-framework-dev (>= 5.0.0),
                qtbase5-dev,
                qtdeclarative5-dev,
                xauth,
                xvfb
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/krunner
+Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/krunner
+Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/krunner
 
 Package: libkf5runner-dev
 Section: libdevel
