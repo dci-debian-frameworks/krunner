@@ -77,19 +77,6 @@ Description: Used to write plugins loaded at runtime called "Runners".
  to accomplish a lot of tasks.
 Multi-Arch: allowed
 
-Package: libkf5runner-data
-Architecture: any
-Multi-Arch: allowed
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5runner5-data
-Replaces: libkf5runner5-data
-Description: krunna data files
- Launcher built into the Plasma desktop. While its
- basic function is to launch programs from a sort
- of mini-command-line, its functionality can be
- extended by "runners" to assist the user
- to accomplish a lot of tasks.
-
 Package: libkf5runner5-dbg
 Architecture: any
 Multi-Arch: allowed
