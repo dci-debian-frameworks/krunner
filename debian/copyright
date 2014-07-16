@@ -3,10 +3,12 @@ Upstream-Name: krunner
 Source: https://projects.kde.org/projects/frameworks/krunner
 
 Files: *
+       debian/*
 Copyright: © 2006-2011 Aaron Seigo <aseigo@kde.org>
            © 2007, 2009 Ryan P. Bitanga <ryan.bitanga@gmail.com>
            © 2008 Jordi Polo <mumismo@gmail.com>
            © 2011 Marco Martin <mart@kde.org>
+             2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -26,8 +28,7 @@ License: LGPL-2+
  On Debian systems, the complete text of the GNU Library General
  Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
-Files: examples/runner/* excluding:
-        -? examples/runner/CMakeLists.txt
+Files: examples/runner/* 
 Copyright: 2009 Aaron Seigo <aseigo@kde.org>
 License: BSD-BY-LC-NE
  Redistribution and use in source and binary forms, with or without
@@ -50,23 +51,3 @@ License: BSD-BY-LC-NE
    THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
    THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- */
-
-Files: debian/*
-Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
- .
- This package is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <http://www.gnu.org/licenses/>
- .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
