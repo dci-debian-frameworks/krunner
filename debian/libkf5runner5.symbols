@@ -197,6 +197,4 @@ libKF5Runner.so.5 libkf5runner5 #MINVER#
  _ZTVN6Plasma13RunnerContextE@Base 4.97.0
  _ZTVN6Plasma13RunnerManagerE@Base 4.97.0
  _ZTVN6Plasma14AbstractRunnerE@Base 4.97.0
-librunnermodelplugin.so libkf5runner5 #MINVER#
- qt_plugin_instance@Base 4.97.0
- qt_plugin_query_metadata@Base 4.97.0
+
