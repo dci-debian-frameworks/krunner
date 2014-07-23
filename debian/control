@@ -54,8 +54,6 @@ Description: development files for krunner
 Package: qml-module-org-kde-runnermodel
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5runner5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa3), libkf5runner-bin
-Replaces: libkf5runner5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa3), libkf5runner-bin
 Description: Used to write plugins loaded at runtime called "Runners".
  Launcher built into the Plasma desktop. While its
  basic function is to launch programs from a sort
