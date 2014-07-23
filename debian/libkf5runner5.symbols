@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 5.0.0 amd64
-libKF5Runner.so.5 libkf5runner5 #MINVER#
+libKF5Runner.so.5 libkf5runner5 #MINVER#, qml-module-org-kde-runnermodel
  _ZN6Plasma10QueryMatch10setEnabledEb@Base 4.97.0
  _ZN6Plasma10QueryMatch10setSubtextERK7QString@Base 4.97.0
  _ZN6Plasma10QueryMatch11setMimeTypeERK7QString@Base 4.97.0

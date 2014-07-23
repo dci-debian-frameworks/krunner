@@ -1,5 +1,6 @@
 krunner (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * First stable upstream release
+  * Rename libkf5runner-bin to qml-module-org-kde-runnermodel
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 23 Jul 2014 17:30:38 +0200
