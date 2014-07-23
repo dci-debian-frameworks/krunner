@@ -81,7 +81,7 @@ Multi-Arch: allowed
 Priority: extra
 Section: debug
 Depends: libkf5runner5 (= ${binary:Version}), ${misc:Depends}
-Recommends: libkf5runner-bin (= ${binary:Version})
+Recommends: qml-module-org-kde-runnermodel (= ${binary:Version})
 Description: debug symbols for krunner
  An assortment of text-related widgets
  .
