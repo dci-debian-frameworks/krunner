@@ -45,7 +45,8 @@ Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kr
 Package: libkf5runner-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5runner5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends}
+Depends: libkf5runner5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends},
+ plasma-framework-dev
 Description: development files for krunner
  An assortment of text-related widgets.
   .

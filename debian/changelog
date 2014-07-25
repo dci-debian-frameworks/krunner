@@ -1,3 +1,10 @@
+krunner (5.0.0-0ubuntu2) utopic; urgency=medium
+
+  * Make krunner-dev depened on plasma-dev to match the cmake config's
+    requirements
+
+ -- Harald Sitter <apachelogger@kubuntu.org>  Fri, 25 Jul 2014 11:28:32 +0200
+
 krunner (5.0.0-0ubuntu1) utopic; urgency=medium
 
   * First stable upstream release
