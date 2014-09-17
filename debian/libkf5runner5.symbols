@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.0 amd64
+# SymbolsHelper-Confirmed: 5.2.0 amd64
 libKF5Runner.so.5 libkf5runner5 #MINVER#, qml-module-org-kde-runnermodel
  _ZN6Plasma10QueryMatch10setEnabledEb@Base 4.97.0
  _ZN6Plasma10QueryMatch10setSubtextERK7QString@Base 4.97.0
@@ -181,6 +181,7 @@ libKF5Runner.so.5 libkf5runner5 #MINVER#, qml-module-org-kde-runnermodel
  _ZNK6Plasma14AbstractRunner6configEv@Base 4.97.0
  _ZNK6Plasma14AbstractRunner7actionsEv@Base 4.97.0
  _ZNK6Plasma14AbstractRunner7packageEv@Base 4.97.0
+ _ZNK6Plasma14AbstractRunner8metadataEv@Base 5.2.0
  _ZNK6Plasma14AbstractRunner8priorityEv@Base 4.97.0
  _ZNK6Plasma14AbstractRunner8syntaxesEv@Base 4.97.0
  _ZTIN12ThreadWeaver11QueuePolicyE@Base 4.97.0
@@ -197,4 +198,3 @@ libKF5Runner.so.5 libkf5runner5 #MINVER#, qml-module-org-kde-runnermodel
  _ZTVN6Plasma13RunnerContextE@Base 4.97.0
  _ZTVN6Plasma13RunnerManagerE@Base 4.97.0
  _ZTVN6Plasma14AbstractRunnerE@Base 4.97.0
-

@@ -28,7 +28,7 @@ License: LGPL-2+
  On Debian systems, the complete text of the GNU Library General
  Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
 
-Files: examples/runner/* 
+Files: examples/runner/*
 Copyright: 2009 Aaron Seigo <aseigo@kde.org>
 License: BSD-BY-LC-NE
  Redistribution and use in source and binary forms, with or without

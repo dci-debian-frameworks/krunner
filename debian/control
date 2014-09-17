@@ -32,7 +32,7 @@ Build-Depends: cmake,
                libkf5windowsystem-dev (>= 5.2.0),
                libkf5xmlgui-dev (>= 5.2.0),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               plasma-framework-dev (>= 5.0.0),
+               plasma-framework-dev (>= 5.2.0),
                qtbase5-dev,
                qtdeclarative5-dev,
                xauth,
@@ -45,8 +45,10 @@ Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kr
 Package: libkf5runner-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5runner5 (= ${binary:Version}), qtbase5-dev, ${misc:Depends},
- plasma-framework-dev
+Depends: libkf5runner5 (= ${binary:Version}),
+         plasma-framework-dev,
+         qtbase5-dev,
+         ${misc:Depends}
 Description: development files for krunner
  An assortment of text-related widgets.
   .
