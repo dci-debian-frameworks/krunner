@@ -1,8 +1,9 @@
-krunner (5.10.0-1~) UNRELEASED; urgency=medium
+krunner (5.11.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.10.0).
+  * New upstream release (5.11.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 11 May 2015 12:19:30 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 29 Jun 2015 10:05:23 +0200
 
 krunner (5.9.0-1) experimental; urgency=medium
 
