@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.0 amd64
+# SymbolsHelper-Confirmed: 5.14.0+git20150917.2241 amd64 i386
 libKF5Runner.so.5 libkf5runner5 #MINVER#
  _ZN6Plasma10QueryMatch10setEnabledEb@Base 4.97.0
  _ZN6Plasma10QueryMatch10setSubtextERK7QString@Base 4.97.0
@@ -194,7 +194,6 @@ libKF5Runner.so.5 libkf5runner5 #MINVER#
  _ZTSN6Plasma13RunnerContextE@Base 4.97.0
  _ZTSN6Plasma13RunnerManagerE@Base 4.97.0
  _ZTSN6Plasma14AbstractRunnerE@Base 4.97.0
- (optional)_ZTVN12ThreadWeaver11QueuePolicyE@Base 4.97.0
  _ZTVN6Plasma13RunnerContextE@Base 4.97.0
  _ZTVN6Plasma13RunnerManagerE@Base 4.97.0
  _ZTVN6Plasma14AbstractRunnerE@Base 4.97.0
