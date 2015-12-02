@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.0+git20150917.2241 amd64 i386
+# SymbolsHelper-Confirmed: 5.14.0 amd64 arm64 armel armhf hppa i386 mips mipsel powerpc ppc64 ppc64el s390x
 libKF5Runner.so.5 libkf5runner5 #MINVER#
  _ZN6Plasma10QueryMatch10setEnabledEb@Base 4.97.0
  _ZN6Plasma10QueryMatch10setSubtextERK7QString@Base 4.97.0
