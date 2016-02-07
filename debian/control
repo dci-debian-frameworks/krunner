@@ -59,15 +59,3 @@ Description: Used to write plugins loaded at runtime called "Runners".
  of mini-command-line, its functionality can be
  extended by "runners" to assist the user
  to accomplish a lot of tasks.
-
-Package: libkf5runner5-dbg
-Architecture: any
-Multi-Arch: same
-Priority: extra
-Section: debug
-Depends: libkf5runner5 (= ${binary:Version}), ${misc:Depends}
-Recommends: qml-module-org-kde-runnermodel (= ${binary:Version})
-Description: debug symbols for krunner
- An assortment of text-related widgets
- .
- Contains debug symbols for krunner.
