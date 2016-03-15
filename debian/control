@@ -23,7 +23,7 @@ Build-Depends: cmake (>= 2.8.12),
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/krunner
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/krunner.git
-Vcs-Git: https://anonscm.debian.org/pkg-kde/frameworks/krunner.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/krunner.git
 
 Package: libkf5runner-dev
 Section: libdevel
