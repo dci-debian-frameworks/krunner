@@ -1,6 +1,6 @@
-krunner (5.20.0-1~1.gbp9318e7) UNRELEASED; urgency=medium
+krunner (5.20.0-1~2.gbpe8fdb0) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @9318e7dcda945bbef50275dc216430acd15e95d1 **
+  ** SNAPSHOT build @e8fdb02e4ed0c0d169d2c190d1108af86a7eb7ec **
 
   [ Maximiliano Curia ]
   * Add upstream metadata (DEP-12)
@@ -12,8 +12,9 @@ krunner (5.20.0-1~1.gbp9318e7) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
+  * Update acc test script
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 30 Mar 2016 10:24:35 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:24:14 +0200
 
 krunner (5.19.0-1) experimental; urgency=medium
 
