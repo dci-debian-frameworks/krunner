@@ -1,6 +1,6 @@
-krunner (5.20.0-1~3.gbp6e067f) UNRELEASED; urgency=medium
+krunner (5.21.0-1~1.gbp028075) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @6e067faa4a889e7f251c363f31249228338b2ccb **
+  ** SNAPSHOT build @0280753be02fa672ae11829f76c1e20132bb565e **
 
   [ Maximiliano Curia ]
   * Add upstream metadata (DEP-12)
@@ -14,8 +14,14 @@ krunner (5.20.0-1~3.gbp6e067f) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Update acc test script
   * UNRELEASED
+  * uscan no longer supports more than one main upstream tarball being listed
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:24:26 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:24:18 +0200
 
 krunner (5.19.0-1) experimental; urgency=medium
 
