@@ -1,6 +1,6 @@
-krunner (5.21.0-1~1.gbp028075) UNRELEASED; urgency=medium
+krunner (5.22.0-1~1.gbpc1d06c) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @0280753be02fa672ae11829f76c1e20132bb565e **
+  ** SNAPSHOT build @c1d06cdc48a1dcaa6c07641a5e6da43e16e30071 **
 
   [ Maximiliano Curia ]
   * Add upstream metadata (DEP-12)
@@ -9,6 +9,9 @@ krunner (5.21.0-1~1.gbp028075) UNRELEASED; urgency=medium
   * Drop qt5-qmltooling-plugins build dependency
 
   [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Update watch file
+  * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
@@ -21,7 +24,7 @@ krunner (5.21.0-1~1.gbp028075) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:24:18 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 16 May 2016 01:42:40 +0200
 
 krunner (5.19.0-1) experimental; urgency=medium
 
