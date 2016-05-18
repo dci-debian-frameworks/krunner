@@ -31,6 +31,8 @@ Depends: libkf5runner5 (= ${binary:Version}),
          plasma-framework-dev (>= 5.22.0~),
          qtbase5-dev (>= 5.4.0~),
          ${misc:Depends}
+Breaks: kapptemplate (<= 4:16.04)
+Replaces: kapptemplate (<= 4:16.04)
 Description: development files for krunner
  An assortment of text-related widgets.
   .
