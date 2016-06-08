@@ -1,3 +1,9 @@
+krunner (5.22.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 08 Jun 2016 10:18:10 +0000
+
 krunner (5.21.0-0neon) xenial; urgency=medium
 
   * New release
