@@ -1,3 +1,11 @@
+krunner (5.23.0-1~1.gbpf89cb5) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @f89cb5d30d80818790a1ceccffc90883237b7a55 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 12 Jun 2016 23:24:27 +0200
+
 krunner (5.22.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
