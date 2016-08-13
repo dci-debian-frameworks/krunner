@@ -1,7 +1,8 @@
-# SymbolsHelper-Confirmed: 5.14.0 amd64 arm64 armel armhf hppa i386 mips mipsel powerpc ppc64 ppc64el s390x
+# SymbolsHelper-Confirmed: 5.24.0 amd64 armhf i386
 libKF5Runner.so.5 libkf5runner5 #MINVER#
  _ZN6Plasma10QueryMatch10setEnabledEb@Base 4.97.0
  _ZN6Plasma10QueryMatch10setSubtextERK7QString@Base 4.97.0
+ _ZN6Plasma10QueryMatch11setIconNameERK7QString@Base 5.24.0
  _ZN6Plasma10QueryMatch11setMimeTypeERK7QString@Base 4.97.0
  _ZN6Plasma10QueryMatch12setRelevanceEd@Base 4.97.0
  _ZN6Plasma10QueryMatch16setMatchCategoryERK7QString@Base 4.99.0
@@ -131,6 +132,7 @@ libKF5Runner.so.5 libkf5runner5 #MINVER#
  _ZNK6Plasma10QueryMatch6runnerEv@Base 4.97.0
  _ZNK6Plasma10QueryMatch7isValidEv@Base 4.97.0
  _ZNK6Plasma10QueryMatch7subtextEv@Base 4.97.0
+ _ZNK6Plasma10QueryMatch8iconNameEv@Base 5.24.0
  _ZNK6Plasma10QueryMatch8mimeTypeEv@Base 4.97.0
  _ZNK6Plasma10QueryMatch9isEnabledEv@Base 4.97.0
  _ZNK6Plasma10QueryMatch9relevanceEv@Base 4.97.0
