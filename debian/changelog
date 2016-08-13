@@ -1,10 +1,12 @@
-krunner (5.24.0-1~1.gbpbc12bb) UNRELEASED; urgency=medium
+krunner (5.25.0-1~1.gbp30b213) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @bc12bbd720f7285b6acd90d9ab60ff8b84238e7a **
+  ** SNAPSHOT build @30b2137bc13d0bbcc9e1b6b45175c632aac9b440 **
 
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 11:24:16 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 23:24:10 +0200
 
 krunner (5.23.0-1) unstable; urgency=medium
 
