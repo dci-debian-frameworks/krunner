@@ -5,7 +5,9 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
+               doxygen,
                extra-cmake-modules (>= 5.37.0~),
+               graphviz,
                kio-dev (>= 5.26.0~),
                libkf5config-dev (>= 5.37.0~),
                libkf5coreaddons-dev (>= 5.37.0~),
@@ -15,12 +17,14 @@ Build-Depends: cmake (>= 3.0~),
                libkf5service-dev (>= 5.37.0~),
                libkf5solid-dev (>= 5.37.0~),
                libkf5threadweaver-dev (>= 5.37.0~),
+               libqt5sql5-sqlite,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                plasma-framework-dev (>= 5.26.0~),
                qtbase5-dev (>= 5.7.0~),
                qtdeclarative5-dev (>= 5.7.0~),
+               qttools5-dev-tools (>= 5.4),
                xauth,
-               xvfb
+               xvfb,
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/frameworks/krunner
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/krunner.git
@@ -33,25 +37,27 @@ Depends: extra-cmake-modules (>= 5.37.0~),
          libkf5runner5 (= ${binary:Version}),
          plasma-framework-dev (>= 5.26.0~),
          qtbase5-dev (>= 5.7.0~),
-         ${misc:Depends}
+         ${misc:Depends},
 Breaks: kapptemplate (<= 4:16.04)
 Replaces: kapptemplate (<= 4:16.04)
+Recommends: libkf5runner-doc (= ${source:Version})
 Description: development files for krunner
  An assortment of text-related widgets.
   .
  Contains development files for krunner.
 
-Package: qml-module-org-kde-runnermodel
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Used to write plugins loaded at runtime called "Runners".
+Package: libkf5runner-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Used to write plugins loaded at runtime called "Runners" (documentation)
  Launcher built into the Plasma desktop. While its
  basic function is to launch programs from a sort
  of mini-command-line, its functionality can be
  extended by "runners" to assist the user
  to accomplish a lot of tasks.
  .
- This package contains the runtime files.
+ This package contains the qch documentation files.
 
 Package: libkf5runner5
 Architecture: any
@@ -64,3 +70,15 @@ Description: Used to write plugins loaded at runtime called "Runners".
  of mini-command-line, its functionality can be
  extended by "runners" to assist the user
  to accomplish a lot of tasks.
+
+Package: qml-module-org-kde-runnermodel
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Used to write plugins loaded at runtime called "Runners".
+ Launcher built into the Plasma desktop. While its
+ basic function is to launch programs from a sort
+ of mini-command-line, its functionality can be
+ extended by "runners" to assist the user
+ to accomplish a lot of tasks.
+ .
+ This package contains the runtime files.
