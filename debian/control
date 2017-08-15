@@ -58,6 +58,7 @@ Description: Used to write plugins loaded at runtime called "Runners" (documenta
  to accomplish a lot of tasks.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5runner5
 Architecture: any
