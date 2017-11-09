@@ -31,6 +31,7 @@ Section: libdevel
 Architecture: any
 Depends: extra-cmake-modules,
          libkf5runner5 (= ${binary:Version}),
+         libkf5windowsystem-dev,
          plasma-framework-dev (>= 5.26.0~),
          qtbase5-dev (>= 5.5.0~),
          ${misc:Depends}
