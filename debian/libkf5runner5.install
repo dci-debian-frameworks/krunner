@@ -1,3 +1,4 @@
+etc/
 usr/lib/*/libKF5Runner.so.5
 usr/lib/*/libKF5Runner.so.5.*
 usr/share/dbus-1/interfaces/kf5_org.kde.krunner1.xml
