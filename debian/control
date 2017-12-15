@@ -18,7 +18,6 @@ Build-Depends: cmake (>= 3.0~),
                libkf5threadweaver-dev (>= 5.41.0~),
                libqt5sql5-sqlite,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               plasma-framework-dev (>= 5.26.0~),
                qtbase5-dev (>= 5.7.0~),
                qtdeclarative5-dev (>= 5.7.0~),
                qttools5-dev-tools (>= 5.4),
@@ -31,9 +30,9 @@ Package: libkf5runner-dev
 Section: libdevel
 Architecture: any
 Depends: extra-cmake-modules (>= 5.41.0~),
+         libkf5plasma-dev (>= 5.26.0~),
          libkf5runner5 (= ${binary:Version}),
          libkf5windowsystem-dev,
-         plasma-framework-dev (>= 5.26.0~),
          qtbase5-dev (>= 5.7.0~),
          ${misc:Depends},
 Breaks: kapptemplate (<= 4:16.04)
