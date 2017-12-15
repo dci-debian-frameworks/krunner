@@ -248,16 +248,6 @@ krunner (5.18.0-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:33:31 +0100
 
-krunner (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  [ Scarlett Clark ]
-  * New upstream release Xenial
-
-  [ Philip Muškovac ]
-  * New upstream release
-
- -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 15:07:30 +0100
-
 krunner (5.16.0-1) unstable; urgency=medium
 
   * New upstream release (5.16.0).
@@ -329,7 +319,7 @@ krunner (5.12.0-0ubuntu1) wily; urgency=medium
     building with GCC 5
 
   [ Scarlett Clark ]
-  * Vivid backport. 
+  * Vivid backport.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 16:08:42 +0200
 
@@ -425,8 +415,8 @@ krunner (5.2.0-0ubuntu1) utopic; urgency=medium
   * Use pkg-kde-tools version 3 scripts
 
   [ Scarlett Clark ]
-  * Batchpatch symbols. 
-  * wrap-and-sort 
+  * Batchpatch symbols.
+  * wrap-and-sort
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 20:08:30 +0200
 
